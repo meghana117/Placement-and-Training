@@ -199,18 +199,12 @@ void Add_Papers::delete_paper(int id)
          }
            break;
        case QMessageBox::Cancel:
-           // Don't Save was clicked
+           // Don't Save was
            break;
        default:
-           // should never be reached
            break;
      }
-
-
 }
-
-
-
 Add_Papers::~Add_Papers()
 {
 
